@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AAA2D67171D8DFB007E8AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAA2D66171D8DFB007E8AAD /* UIKit.framework */; };
+		7AAA2D69171D8DFC007E8AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAA2D68171D8DFC007E8AAD /* Foundation.framework */; };
+		7AAA2D6B171D8DFC007E8AAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAA2D6A171D8DFC007E8AAD /* CoreGraphics.framework */; };
+		7AAA2D71171D8DFC007E8AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA2D6F171D8DFC007E8AAD /* InfoPlist.strings */; };
+		7AAA2D73171D8DFC007E8AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D72171D8DFC007E8AAD /* main.m */; };
+		7AAA2D77171D8DFC007E8AAD /* LangDictAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D76171D8DFC007E8AAD /* LangDictAppDelegate.m */; };
+		7AAA2D79171D8DFC007E8AAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA2D78171D8DFC007E8AAD /* Default.png */; };
+		7AAA2D7B171D8DFC007E8AAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA2D7A171D8DFC007E8AAD /* Default@2x.png */; };
+		7AAA2D7D171D8DFC007E8AAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA2D7C171D8DFC007E8AAD /* Default-568h@2x.png */; };
+		7AAA2D80171D8DFC007E8AAD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA2D7E171D8DFC007E8AAD /* MainStoryboard.storyboard */; };
+		7AAA2D83171D8DFC007E8AAD /* LangDictMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D82171D8DFC007E8AAD /* LangDictMasterViewController.m */; };
+		7AAA2D86171D8DFC007E8AAD /* LangDictDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D85171D8DFC007E8AAD /* LangDictDetailViewController.m */; };
+		7AAA2D8E171DB5EE007E8AAD /* Word_SideA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D8D171DB5EE007E8AAD /* Word_SideA.m */; };
+		7AAA2D91171DBA35007E8AAD /* LangDictController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2D90171DBA35007E8AAD /* LangDictController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AAA2D63171D8DFB007E8AAD /* LangLearningDict1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LangLearningDict1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAA2D66171D8DFB007E8AAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AAA2D68171D8DFC007E8AAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AAA2D6A171D8DFC007E8AAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AAA2D6E171D8DFC007E8AAD /* LangLearningDict1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LangLearningDict1-Info.plist"; sourceTree = "<group>"; };
+		7AAA2D70171D8DFC007E8AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AAA2D72171D8DFC007E8AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AAA2D74171D8DFC007E8AAD /* LangLearningDict1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LangLearningDict1-Prefix.pch"; sourceTree = "<group>"; };
+		7AAA2D75171D8DFC007E8AAD /* LangDictAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LangDictAppDelegate.h; sourceTree = "<group>"; };
+		7AAA2D76171D8DFC007E8AAD /* LangDictAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LangDictAppDelegate.m; sourceTree = "<group>"; };
+		7AAA2D78171D8DFC007E8AAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7AAA2D7A171D8DFC007E8AAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7AAA2D7C171D8DFC007E8AAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7AAA2D7F171D8DFC007E8AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7AAA2D81171D8DFC007E8AAD /* LangDictMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LangDictMasterViewController.h; sourceTree = "<group>"; };
+		7AAA2D82171D8DFC007E8AAD /* LangDictMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LangDictMasterViewController.m; sourceTree = "<group>"; };
+		7AAA2D84171D8DFC007E8AAD /* LangDictDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LangDictDetailViewController.h; sourceTree = "<group>"; };
+		7AAA2D85171D8DFC007E8AAD /* LangDictDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LangDictDetailViewController.m; sourceTree = "<group>"; };
+		7AAA2D8C171DB5EE007E8AAD /* Word_SideA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word_SideA.h; sourceTree = "<group>"; };
+		7AAA2D8D171DB5EE007E8AAD /* Word_SideA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word_SideA.m; sourceTree = "<group>"; };
+		7AAA2D8F171DBA35007E8AAD /* LangDictController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LangDictController.h; sourceTree = "<group>"; };
+		7AAA2D90171DBA35007E8AAD /* LangDictController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LangDictController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAA2D60171D8DFB007E8AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAA2D67171D8DFB007E8AAD /* UIKit.framework in Frameworks */,
+				7AAA2D69171D8DFC007E8AAD /* Foundation.framework in Frameworks */,
+				7AAA2D6B171D8DFC007E8AAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AAA2D5A171D8DFB007E8AAD = {
+			isa = PBXGroup;
+			children = (
+				7AAA2D6C171D8DFC007E8AAD /* LangLearningDict1 */,
+				7AAA2D65171D8DFB007E8AAD /* Frameworks */,
+				7AAA2D64171D8DFB007E8AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAA2D64171D8DFB007E8AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA2D63171D8DFB007E8AAD /* LangLearningDict1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAA2D65171D8DFB007E8AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA2D66171D8DFB007E8AAD /* UIKit.framework */,
+				7AAA2D68171D8DFC007E8AAD /* Foundation.framework */,
+				7AAA2D6A171D8DFC007E8AAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AAA2D6C171D8DFC007E8AAD /* LangLearningDict1 */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA2D75171D8DFC007E8AAD /* LangDictAppDelegate.h */,
+				7AAA2D76171D8DFC007E8AAD /* LangDictAppDelegate.m */,
+				7AAA2D7E171D8DFC007E8AAD /* MainStoryboard.storyboard */,
+				7AAA2D8C171DB5EE007E8AAD /* Word_SideA.h */,
+				7AAA2D8D171DB5EE007E8AAD /* Word_SideA.m */,
+				7AAA2D8F171DBA35007E8AAD /* LangDictController.h */,
+				7AAA2D90171DBA35007E8AAD /* LangDictController.m */,
+				7AAA2D81171D8DFC007E8AAD /* LangDictMasterViewController.h */,
+				7AAA2D82171D8DFC007E8AAD /* LangDictMasterViewController.m */,
+				7AAA2D84171D8DFC007E8AAD /* LangDictDetailViewController.h */,
+				7AAA2D85171D8DFC007E8AAD /* LangDictDetailViewController.m */,
+				7AAA2D6D171D8DFC007E8AAD /* Supporting Files */,
+			);
+			path = LangLearningDict1;
+			sourceTree = "<group>";
+		};
+		7AAA2D6D171D8DFC007E8AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA2D6E171D8DFC007E8AAD /* LangLearningDict1-Info.plist */,
+				7AAA2D6F171D8DFC007E8AAD /* InfoPlist.strings */,
+				7AAA2D72171D8DFC007E8AAD /* main.m */,
+				7AAA2D74171D8DFC007E8AAD /* LangLearningDict1-Prefix.pch */,
+				7AAA2D78171D8DFC007E8AAD /* Default.png */,
+				7AAA2D7A171D8DFC007E8AAD /* Default@2x.png */,
+				7AAA2D7C171D8DFC007E8AAD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAA2D62171D8DFB007E8AAD /* LangLearningDict1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAA2D89171D8DFC007E8AAD /* Build configuration list for PBXNativeTarget "LangLearningDict1" */;
+			buildPhases = (
+				7AAA2D5F171D8DFB007E8AAD /* Sources */,
+				7AAA2D60171D8DFB007E8AAD /* Frameworks */,
+				7AAA2D61171D8DFB007E8AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LangLearningDict1;
+			productName = LangLearningDict1;
+			productReference = 7AAA2D63171D8DFB007E8AAD /* LangLearningDict1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAA2D5B171D8DFB007E8AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LangDict;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ian Mason";
+			};
+			buildConfigurationList = 7AAA2D5E171D8DFB007E8AAD /* Build configuration list for PBXProject "LangLearningDict1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AAA2D5A171D8DFB007E8AAD;
+			productRefGroup = 7AAA2D64171D8DFB007E8AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAA2D62171D8DFB007E8AAD /* LangLearningDict1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAA2D61171D8DFB007E8AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAA2D71171D8DFC007E8AAD /* InfoPlist.strings in Resources */,
+				7AAA2D79171D8DFC007E8AAD /* Default.png in Resources */,
+				7AAA2D7B171D8DFC007E8AAD /* Default@2x.png in Resources */,
+				7AAA2D7D171D8DFC007E8AAD /* Default-568h@2x.png in Resources */,
+				7AAA2D80171D8DFC007E8AAD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAA2D5F171D8DFB007E8AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAA2D73171D8DFC007E8AAD /* main.m in Sources */,
+				7AAA2D77171D8DFC007E8AAD /* LangDictAppDelegate.m in Sources */,
+				7AAA2D83171D8DFC007E8AAD /* LangDictMasterViewController.m in Sources */,
+				7AAA2D86171D8DFC007E8AAD /* LangDictDetailViewController.m in Sources */,
+				7AAA2D8E171DB5EE007E8AAD /* Word_SideA.m in Sources */,
+				7AAA2D91171DBA35007E8AAD /* LangDictController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AAA2D6F171D8DFC007E8AAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAA2D70171D8DFC007E8AAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AAA2D7E171D8DFC007E8AAD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AAA2D7F171D8DFC007E8AAD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AAA2D87171D8DFC007E8AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AAA2D88171D8DFC007E8AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAA2D8A171D8DFC007E8AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LangLearningDict1/LangLearningDict1-Prefix.pch";
+				INFOPLIST_FILE = "LangLearningDict1/LangLearningDict1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AAA2D8B171D8DFC007E8AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LangLearningDict1/LangLearningDict1-Prefix.pch";
+				INFOPLIST_FILE = "LangLearningDict1/LangLearningDict1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAA2D5E171D8DFB007E8AAD /* Build configuration list for PBXProject "LangLearningDict1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAA2D87171D8DFC007E8AAD /* Debug */,
+				7AAA2D88171D8DFC007E8AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAA2D89171D8DFC007E8AAD /* Build configuration list for PBXNativeTarget "LangLearningDict1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAA2D8A171D8DFC007E8AAD /* Debug */,
+				7AAA2D8B171D8DFC007E8AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AAA2D5B171D8DFB007E8AAD /* Project object */;
+}
